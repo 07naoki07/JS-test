@@ -17,3 +17,16 @@ const menber ={
 };
 
 console.log(menber.name);
+
+const member_2 ={
+  '本田':{
+    'height':170,
+    'hobby':'サッカー'
+  },
+  '香川':{
+    'height':160,
+    'hobby':'サッカー'
+  }
+};
+
+console.log(member_2['香川']['height'])
