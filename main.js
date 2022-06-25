@@ -6,3 +6,14 @@ const array_2 = [
 ];
 //0から始まる
 console.log(array_2 [0][2]);
+
+//オブジェクト（もの）
+const menber ={
+  //キー：　バリュー
+  'name': '本田',
+  'height': 170,
+  'hobby' :'サッカー'
+
+};
+
+console.log(menber.name);
