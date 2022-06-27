@@ -30,3 +30,7 @@ const member_2 ={
 };
 
 console.log(member_2['香川']['height'])
+
+const member_3 ={
+ 
+};
