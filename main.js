@@ -16,3 +16,16 @@ if (height === 90){
 
 // == 一致
 // === 型も一致 　こちらが主流で使う
+
+const  signal = 'red';
+
+if (signal === 'red'){
+  console.log('止まれ')
+} else if (signal === 'yellow'){
+  console.log ('一旦停止');
+} else{
+  console.log('進む')
+}
+
+const speed =60;
+
