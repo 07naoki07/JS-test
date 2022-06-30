@@ -17,7 +17,7 @@ if (height === 90){
 // == 一致
 // === 型も一致 　こちらが主流で使う
 
-const  signal = 'red';
+const  signal = 'blue';
 
 if (signal === 'red'){
   console.log('止まれ')
@@ -28,4 +28,12 @@ if (signal === 'red'){
 }
 
 const speed =60;
+
+if(signal ==='blue'){
+  if(speed >= 60){//ネスト
+    console.log('スピード違反');
+   }
+  }
+
+
 
