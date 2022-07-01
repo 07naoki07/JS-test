@@ -8,10 +8,16 @@ const height =91;
 
 console.log(typeof height);
 
-if (height === 90){
+if (height >= 91){
   console.log('身長は'+ height + 'cmです');
-} else {
-  console.log('身長は90cmではありません');
+}
+
+if (height <= 90){
+  console.log('身長は'+ height + 'cmなります');
+}
+
+if (height !== 90){  //否定　！＝＝型も否定
+  console.log('身長は'+ height + 'cmになりません');
 }
 
 // == 一致
@@ -34,6 +40,8 @@ if(signal ==='blue'){
     console.log('スピード違反');
    }
   }
+
+// AND ,OR
 
 
 
